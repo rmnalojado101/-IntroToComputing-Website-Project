@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="Blogs.html" class="nav-link"> Blog's </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="recipe-2.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Grilled Bone-In Chicken Thighs</h2>
+            <p>How can such a simple recipe for grilled chicken thighs taste so flavorful and 
+               satisfying? Once you sink your teeth into the super-crispy skin and find rich, tasty
+               dark meat waiting underneath, you’ll understand. This low and slow cooking method yields 
+               tender, succulent meat with carefully developed flavors. Make grilled chicken thighs the
+               simple way, because juicy, decadent chicken doesn’t have to be so complicated.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>8 hrs 45 mins.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">beef</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Pat chicken dry with paper towels, and place, skin side up, in a single 
+                layer on a rimmed baking sheet. Sprinkle with salt and pepper, and chill,
+                uncovered, until skin has dried out, 8 to 12 hours.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Preheat a gas grill to medium (350°F to 400°F) on one side, or push hot
+                coals to 1 side of a charcoal grill.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Place chicken thighs, skin side down, on oiled grates over lit side of the 
+                grill. Grill, covered, until skin is well marked and crispy, 5 to 6 minutes.
+                Turn thighs over, and transfer to unlit side of grill. Grill, covered, until
+                a thermometer registers 165°F when inserted into thickest part of a chicken 
+                thigh, 20 to 25 minutes, turning halfway through grilling. Remove from grill, 
+                and let rest 5 to 10 minutes before serving.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">8 (8-oz.) bone-in, skin-on chicken thighs (about 4 lb.), trimmed</p>
+              <p class="single-ingredient">1 ½ teaspoons kosher salt</p>
+              <p class="single-ingredient">½ teaspoon black pepper</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Tongs are high on the list, especially 
+                                     when you want to grill up juicy chicken. </p>
+              <p class="single-tool">thermometer is ideal to have because it
+                                     allows you to grill chicken to perfection every time.</p>
+              <p class="single-tool">Brushes are nearly indispensable for adding
+                                     sauce to your grilling chicken</p>
+              <p class="single-tool">Grill</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.facebook.com/roman.alojado/">Roman M. Alojado</a>
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

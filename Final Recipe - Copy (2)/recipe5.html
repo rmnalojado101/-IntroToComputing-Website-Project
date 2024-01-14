@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="Blogs.html" class="nav-link"> Blog's </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="recipe-5.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Pan-Fried Pork Chops</h2>
+            <p>Few things are as easy to prepare as these pan-fried boneless pork chops. 
+               They take only minutes to prepare! The emphasis is on the great flavor of pork, 
+               so if you'd like more seasoning, go for it. For perfectly done chops, always use 
+               a meat thermometer.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>5 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>25 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">beef</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Do not pat chops dry, so seasonings and flour will stick.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Season both sides of pork chops with salt and pepper, then sprinkle with 
+                flour on both sides. Use the back of a spoon to distribute the flour
+                over the entire surface.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Heat oil in a 12-inch non-stick skillet over medium heat until it shimmers. 
+                Carefully add pork chops and pan fry until brown, about 4 minutes. Do not 
+                disturb the chops until ready to turn.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                When you see the edges of the chops turn brown, turn, and pan fry the other 
+                side until no longer pink on the inside and brown on the outside, an additional 
+                4 minutes. An instant-read thermometer inserted into the center should read 145 
+                degrees F (63 degrees C). Reduce heat, if they are browning too quickly. Serve warm.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">4 boneless pork chops, 3/4-inch thick</p>
+              <p class="single-ingredient">salt and freshly ground black pepper to taste</p>
+              <p class="single-ingredient">2 tablespoons all-purpose flour</p>
+              <p class="single-ingredient">½ cup cooking oil</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Frying Pan</p>
+              <p class="single-tool">Frying Ladle</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Big bowl</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.facebook.com/roman.alojado/">Roman M. Alojado</a>
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
