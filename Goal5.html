@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Recipes</title>
+<link rel="shortcut icon" href="favicone.ico" type="image/x-icon"/>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; 
+  background: #ccc;
+  padding: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Simple Recipes</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Tags</a></li>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">Blogs</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Simple Recipes</h1>
+    <p>"Cooking Is A Symphony Of Flavors, And Recipes Are The Sheet Music That Guides Us Through The Art Of Creating A Masterpiece For The Senses."</p>
+
+    <img src="main.jpeg"  width="700" height="350">
+
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
